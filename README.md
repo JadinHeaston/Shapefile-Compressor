@@ -1,4 +1,4 @@
-# Shapefile-Compressor
+# shapefile-compressor
 The basic function is that the script compresses files of a similar name (excluding extensions) within a directory (Does not recursively look through sub-directories). Primarily created for shapefiles.
 
 Eventually, I may add an additional check for the specific shapefile extensions. - Although, I have been using C++ more often recently and the speed gains from using that may prove to be worth the effort of remaking this simple script.
