@@ -3,11 +3,8 @@ The basic function is that the script compresses files of a similar name (exclud
 
 Eventually, I may add an additional check for the specific shapefile extensions. - Although, I have been using C++ more often recently and the speed gains from using that may prove to be worth the effort of remaking this simple script.
 
-
-This script was created to automatically zip shapefiles into a single compressed folder.
-
-It will compress all items with the same name (different extensions) into a single zip folder. It will NOT delete any of the original data.
 It will prompt for a folder to begin compressing and will immediately go to work. A completion dialog will appear when finished.
+It will compress all items with the same name (different extensions) into a single zip folder. It will NOT delete any of the original data.
 
 Notes
   - XML files will act weird. The test data (and use case) this was created for meant that the file name for .xml files were "*.shp.xml"
